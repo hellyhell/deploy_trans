@@ -34,7 +34,7 @@ scipy==1.6.3
 six==1.16.0
 sklearn==0.0
 sortedcontainers==2.4.0
-tensorflow-cpu=2.7.0
+tensorflow-cpu==2.7.0
 threadpoolctl==2.1.0
 toolz==0.11.1
 urllib3==1.26.6
