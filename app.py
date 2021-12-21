@@ -1,11 +1,7 @@
 from flask import Flask, render_template, request
-import matplotlib.pyplot as plt
-# %matplotlib inline
-# import seaborn as sns
 import pandas as pd
 import re
 import tensorflow as tf
-
 from tensorflow.keras.layers import Embedding, LSTM, Dense
 from tensorflow.keras.models import Model
 from tensorflow.keras.preprocessing.text import Tokenizer
