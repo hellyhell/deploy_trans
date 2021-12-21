@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Italian to English</title>
+	</head>
+	<body>
+		<h2>Italian -> English</h2>
+		<p>
+		<form action="/" method="POST">
+    		<input type="text" name="source" placeholder="source">
+    		<input type="submit" name="Translate">
+		</form>
+		<p></p>
+		{% if pred != '' %}
+			Predicted Sentence: {{pred}}
+		{% else %}
+			Predicted Sentence: 
+		{% endif %}
+	</body>
+</html>
