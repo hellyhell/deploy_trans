@@ -13,7 +13,7 @@ import random
 import nltk.translate.bleu_score as bleu
 from nltk.translate.bleu_score import SmoothingFunction
 
-app = Flask(__name__)
+
 
 def decontractions(phrase):
     phrase = re.sub(r"won\'t", "will not", phrase)
@@ -172,7 +172,7 @@ def predict_mod1(source_sentence):
 
 
 
-
+app = Flask(__name__)
 
 
 @app.route("/", methods = ["GET","POST"])
