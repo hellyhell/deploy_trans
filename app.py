@@ -166,7 +166,7 @@ def predict_mod1(source_sentence):
         # the predicted ID is fed back into the model
         dec_input = tf.expand_dims([predicted_id], 0)
         states=[state_h,state_c]
-  
+
     return result
 
 
@@ -192,4 +192,4 @@ def start():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', port=8080)
